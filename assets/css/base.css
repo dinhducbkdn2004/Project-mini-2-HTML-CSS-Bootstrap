@@ -1,99 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-    --color-one: #8261EE;
-    --color-two: #FF589E;
-    --color-text: #1e1e1e;
-    /* --bg-1: #EFEFEF;
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+  /* --bg-1: #EFEFEF;
     --bg-2: #DCE8EB; */
 
-    --font: "Raleway", sans-serif;
+  --font: "Raleway", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font);
-    color: var(--color-text);
-    line-height: 1.6;
+  font-family: var(--font);
+  color: var(--color-text);
+  line-height: 1.6;
 }
 
 .container {
-    max-width: 1140px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
-    color: var(--color-text);
-    text-decoration: none;
+  color: var(--color-text);
+  text-decoration: none;
 }
 
 a:hover {
-    color: var(--color-two);
-    text-decoration: none;
+  color: var(--color-two);
+  text-decoration: none;
 }
 
 .button {
-    display: inline-block;
-    padding: 12px 20px;
-    border-radius: 45px;
-    background: #fff;
-    color: var(--color-text);
-    font-size: 13px;
-    font-weight: 500;
-    transition: all 0.3s ease 0s;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 45px;
+  background: #fff;
+  color: var(--color-text);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
 }
 
 .button-one {
-    background: var(--color-one);
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  background: var(--color-one);
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .button-one:hover {
-    background: var(--color-two);
-    color: #fff;
+  background: var(--color-two);
+  color: #fff;
 }
 
 .button-two {
-    background: var(--color-two);
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  background: var(--color-two);
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .button-two:hover {
-    background: var(--color-one);
-    color: #fff;
+  background: var(--color-one);
+  color: #fff;
 }
 
 @media screen and (max-width: 1999.98px) {
-    .container {
-        max-width: 960px;
-    }   
+  .container {
+    max-width: 960px;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
-    .container {
-        max-width: 720px;
-    }   
+  .container {
+    max-width: 720px;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
-    .container {
-        max-width: 540px;
-    }   
+  .container {
+    max-width: 540px;
+  }
 }
 
 @media screen and (max-width: 575.98px) {
-    .container {
-        max-width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-    }   
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
